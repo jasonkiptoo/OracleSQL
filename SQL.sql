@@ -130,23 +130,3 @@ from cte2 where rank = 2
 --Employees salary Running total
 select first_name,salary,sum(salary) over(order by salary) As Running_Total
 From employees;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
